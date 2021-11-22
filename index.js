@@ -4,7 +4,7 @@
    const connectionString = 'postgres://pratical-hopper:iFm51Le2uz^Rchqp@practical-hopper.80-211-105-166.plesk.page:5432/e2c_nodedb'
    
    app.get('/', (request, response)=> {
-     res.send('Hello World');
+     response.send('Hello World');
    }) 
 
    app.post('/pg', (request, response)=> {
